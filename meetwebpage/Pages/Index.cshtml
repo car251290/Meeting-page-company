@@ -1,0 +1,261 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Meet Page";
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Company page</h1>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/css/images/Product Manager.jpg" alt="Mike" style="width:100%;height:100%" ">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h2> Lyne Gribbons</h2>
+                            <p>I love Engineering</p>
+                            <p>604778937</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p>Product Manager.</p>
+                    <p>Lgribb@Tsabl.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./css/images/CEO.jpg" alt="Jane" style="width:100%;height:100%" />
+                        </div>
+                        <div class="flip-card-back">
+                            <h2> Robby Jensen</h2>
+                            <p>I love the improvement</p>
+                            <p>(774)87654</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p> CEO & Founded.</p>
+                    <p>RoobtCEO@Tsabl.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/css/images/Accounting.jpg" alt="Mike" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h2> David Size</h2>
+                            <p>I love numbers</p>
+                            <p>(604)78563</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p>Accounting Manager.</p>
+                    <p> Dsize@Tsabl.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/css/images/Art.jpg" alt="Mike" style="width:100%;height:100%";>
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h2> Rachel Litt</h2>
+                            <p>I love Art</p>
+                            <p>(604)76894</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p>Art Manager.</p>
+                    <p>RLitt@Tsabl.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/css/images/Design.jpg" alt="Mike" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h2> Katie Morrissey</h2>
+                            <p>I love make styles and Designs</p>
+                            <p>(604)786543</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p>Design manager</p>
+                    <p>Kmorri@Tsabl.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/css/images/HR.jpg" alt="Mike" style="width:100%;height:100%">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h2> Jennifer Cole</h2>
+                            <p>I love Talk</p>
+                            <p>(604)546345</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p>Human Resources</p>
+                    <p>Jcole@Tsabl.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+
+    .container {
+        padding: 0 16px;
+    }
+
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+    .title {
+        color: grey;
+    }
+
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #9e9e9e;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+
+        .button:hover {
+            background-color: #000;
+        }
+
+
+
+    .flip-card {
+        background-color: transparent;
+        width: 358px;
+        height: 170px;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    }
+
+    .flip-card-back {
+        background-color: #9e9e9e;
+        color: white;
+        transform: rotateY(180deg);
+    }
+
+
+</style>
