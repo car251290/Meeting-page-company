@@ -3,7 +3,7 @@ Meeting page in c# JavaScript CSS & amp; HTML
 simple meeting page to know the basic information of the people that are working in the company
 
 ##Tools
-1-Visual Studio
-2-C#
-3- Html & Css
+-Visual Studio
+-C#
+- Html & Css
 
