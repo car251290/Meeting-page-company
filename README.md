@@ -7,6 +7,8 @@ build and improve in a .Net and C# project.
 # View Model
 The "Add View" dialog allows us to quickly and easily generate View template files. By default the "Add View" dialog pre-populates the name of the View template to create so that it matches the action method that will use it. Because we used the "Add View
 
+ You can create any number of individual bundles specifically for CSS, JavaScript, etc. Fewer files means fewer HTTP requests from the browser to the server or from the service providing your application. This results in improved first page load performance.
+
 ##Tools
 
 -Visual Studio
